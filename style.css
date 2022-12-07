@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #19A1AE;
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: right 75vw bottom 45vh, left 75vw top 52vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background{
+    width: 350px;
+    height: 375px;
+    overflow: hidden;
+    border-radius: 15px;
+    position: relative;
+    background-color: #ffff;
+    background-image: url(/images/bg-pattern-card.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+    border-radius: 15px;
+}
+
+
+.profile-image{
+    display: flex;
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    margin-left: 127px;
+    margin-top: 95px;
+    border: 5px solid;
+    border-color: #ffff;
+    border-radius: 55px;
+}
+
+.background h1{
+
+    display: flex;
+    position: absolute;
+    left: 32%;
+    top: 55%;
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #2E3349;
+
+
+}
+
+.background span{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    margin-left: 10px;
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #6B7082
+}
+
+ address{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top: 65%;
+    left: 43%;
+    height: 14px;
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #6B7082;
+}
+
+
+.number h2{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    margin-top: 90%;
+    margin-left: 60px;
+    font-family: Kumbh Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    text-align: center;
+    letter-spacing: 1.5px;
+    line-height: 12px;
+    gap: 3.5rem;
+    color: #2E3349;
+
+}
+
+.f-l-p{
+    display: flex;
+    position: absolute;
+    margin-top: 95%;
+    margin-left: 50px;
+    font-family: Kumbh Sans;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1.7px;
+    text-align: center;
+    gap: 3.6rem;
+    
+
+}
+
+
+
+
+.dr{
+    display: flex;
+    position: absolute;
+    width: 350px;
+    color: #E8E9EC;
+    border: 1px solid;
+    margin-top: 280px;
+}
+
+
+@media only screen and (max-width: 450px) {
+    body {
+        max-width: 32rem;
+        background-position: right 50vw bottom 40vh, left 50vw top 40vh;
+    }
+}
